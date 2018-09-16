@@ -16,6 +16,16 @@ public class food { // class name
         this.name = name;
     }
 
+    // contructer for name and calories
+    public food(int calories, String name){
+        sweet = false;
+        salty = false;
+        bitter = false;
+        savory = false;
+        sour = false;
+        this.calories = calories;
+        this.name = name;
+    }
     // makes it sweet
     public void addSugar(){
         sweet = true;
