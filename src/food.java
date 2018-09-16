@@ -1,6 +1,6 @@
 import java.lang.reflect.Field;
 
-public class food {
+public class food { // class name
     private boolean sweet, salty, bitter, savory, sour;
     private int calories;
     private String name;
