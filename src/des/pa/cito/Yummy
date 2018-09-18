@@ -1,0 +1,7 @@
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.CLASS)
+public interface @Yummy {
+
+String description;
+
+}
